@@ -1,34 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FLUXO</title>
-    <style>
-        *{
-            margin: 0;
-            box-sizing: border-box;
-        }
-        body {
-            display: flex;
-            min-height: 100vh;
-            justify-content: center;
-            min-height: 100vh;
-            background: linear-gradient(to bottom, #0b1042, #17294b, #020813);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLUXO - Encontre Profissionais para Seu Projeto</title>
+  <link rel="stylesheet" href="/homepag/style.css">
+  <link href="https://fonts.googleapis.com/css?
+  family=Inter:400,500,700,800,900&display=swap" rel="stylesheet">
+
 </head>
-
 <body>
-    <header>
-        <input type="text" placeholder="search">
-        <button>sing up</button>
-        <button>log in</button>
-
-    </header>   
-    
-
+  <header>
+    <div class="logo"><span>FLUXO</span></div>
+    <nav>
+      <a href="#">Buscar Profissionais</a>
+      <a href="#">Como Funciona</a>
+      <a href="#">Para Empresas</a>
+      <a href="#">Blog</a>
+      <a href="#">Contato</a>
+      <button class="btn-yellow">Cadastre Seu Projeto</button>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Encontre os <span class="highlight">Melhores Profissionais</span> para o Seu Projeto</h1>
+        <p>Sua ideia, nosso compromisso: conecte-se com especialistas qualificados e transforme seu projeto em realidade.</p>
+        <ul>
+          <li>Profissionais e empresas avaliados e certificados</li>
+          <li>Busca inteligente por área, cidade ou especialidade</li>
+          <li>Compare portfólios e avaliações reais de clientes</li>
+          <li>Solicite orçamentos personalizados em poucos cliques</li>
+          <li>Suporte dedicado em todas as etapas do seu projeto</li>
+        </ul>
+        <div class="cta-buttons">
+          <button class="btn-purple">Quero Encontrar um Profissional</button>
+          <button class="btn-outline">Cadastre Seu Projeto</button>
+        </div>
+        <div class="clientes">
+          <span>Empresas e profissionais que já confiam no FLUXO:</span>
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Cliente 1">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="Cliente 2">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="Cliente 3">
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
-
 </html>
